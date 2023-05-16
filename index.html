@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/subMenu.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="shortcut icon" href="./assets/img/fatelLogo.jpg" type="image/x-icon" />
+    <title>Fatel</title>
+</head>
+<body onload="carouselImg1()">
+    <header>
+        <div class="menuContainer">
+            <nav>
+                <a class="logo" href="#">Fatel</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./src/pages/Cursos.html">Cursos</a></li>
+                    <li><a href="./src/pages/Sobre.html">Sobre</a></li>
+                    <li><a href="./src/pages/Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="subMenuContainer">
+            <button class="btn btnPrimary">Já sou Aluno</button>
+            <button class="btn btnPrimary">Vestibular</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="Carrousel">
+            <div class="btn-wrap">
+                <img id="imgCarousel" alt="Imagens do Carousel">
+            </div>
+            <div class="AvisosBoard">
+                <br><br>
+                <h2>Quadro de Avisos da FATEL</h2>
+                <br>
+                <img class="imgAvisosBoards" src="./assets/img/aviso1.jpeg" alt="Quadro de Avisos, noticia um">
+                <img class="imgAvisosBoards" src="./assets/img/aviso2.jpeg" alt="Quadro de Avisos, noticia dois">
+                <img class="imgAvisosBoards" src="./assets/img/aviso3.jpeg" alt="Quadro de Avisos, noticia três">
+            </div>
+        </div>
+        <div class="CursoSearch">
+            <h2>Busque o seu curso</h2><br><br>
+            <button class="btnLabel">Graduação EAD</button>
+            <input type="text" placeholder="Digite o nome do Curso">
+            <button class="btn btnPrimary" id="btnCursoSearc">Buscar</button>
+        </div>
+        <div class="ContatoMain">
+            <br><br>
+            <h2>Entre em Contato e saiba mais</h2>
+            <br>
+            <p>Telefone para contato por Whatsapp ou Ligação:</p>
+            <p>31 3243-0967</p>
+            <br>
+            <p>Ou clique aqui:</p>
+            <!--<div><i class="fa-brands fa-whatsapp"></i></div>-->
+            <a href="https://wa.me/553132430967" target="_blank"><img class="LogoIcon" src="./assets/img/WhatsappLogo.png" alt="Simbolo Whatsapp"></a>
+        </div>
+        <div class="vantagensMain">
+            <h2>Qualidade na formação e educação</h2>
+            <div>
+                <img src="./assets/img/infraestrutura.gif" alt="Ajuda de professores">
+                <p>Infraestrutura</p>
+            </div>
+            <div>
+                <img src="./assets/img/professor.gif" alt="Engrenagem de Infraestrutura para os alunos">
+                <p>Monitoria e Orientação</p>
+            </div>
+            <div>
+                <img src="./assets/img/suporte.png" alt="Suporte para os Alunos">
+                <p>Suporte</p>
+            </div>
+        </div>
+        <div class="sobreMain">
+            <br><br>
+            <h2>Um pouco mais sobre a Fatel</h2>
+            <br>
+            <img src="./assets/img/FatelIcone.jpeg" alt="Simbolo da Fatel">
+            <br><br>
+            <p>A missão da Faculdade de Tecnologia do Leste de Minas é oferecer uma educação de qualidade e
+                relevante para preparar nossos alunos para serem líderes responsáveis e efetivos em suas
+                comunidades e no mundo. Nós nos valorizamos para criar um ambiente inclusivo e colaborativo,
+                valorizando a diversidade e promova o aprendizado ao longo da vida. Através de uma abordagem
+                interdisciplinar e prática, buscamos cultivar a criatividade, a inovação e a capacidade de resolução de
+                problemas em nossos alunos, equipando-os com as habilidades e conhecimentos necessários para
+                enfrentar os desafios complexos do século XXI. A FATEL também se dedica a contribuir para a melhoria
+                da sociedade por meio de pesquisas e serviços de extensão relevantes para a comunidade.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <br><br>
+            <h4>&#174;Fatel - Faculdade de Tecnologia do Leste de Minas</h4>
+            <div>
+                <h4>Contato:</h4>
+                <p>31 3243-0967</p>
+                <p><a href="https://wa.me/553132430967" target="_blank"><img class="LogoIcon" src="./assets/img/WhatsappLogo.png" alt="Simbolo Whatsapp"></a></p>
+            </div>
+            <div>
+                <h4>Endereço:</h4>
+                <p>Rodovia de Ligação da BR 120/259 - Km 001, S/N,</p>
+                <p>Virginópolis - MG, 39730-000</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="./js/menuAcoes.js"></script>
+    <script src="./js/carousel.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.btn{
+    font-family: arial;
+    font-size:14px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+}
+.btnPrimary{
+    background: #46ccf1;
+    color:#fff;
+    box-shadow:0 5px 0 #46b0ce;
+}
+
+.btnPrimary:hover{
+    background:#0c80c4;
+    box-shadow:0 5px 0 #0a6faa;
+}
+.btnPrimary:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+}
+
+.LogoIcon{
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 600px)
+{
+    .btn{
+        height: 30px;
+    }
+}

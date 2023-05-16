@@ -1,0 +1,35 @@
+.LogoIcon{
+    width: 25px;
+    height: 25px;
+}
+
+
+.headCursos{
+    background-image: linear-gradient( to right, #1aa1c7, #19b3dc, #b6e1ef, #c9ebf7 );
+    height: 300px;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+.headCursos h3{
+    font-size: 80px;
+    color: rgb(71, 68, 68);
+}
+
+.neckCursos{
+    background-color: #b6e1ef;
+    text-align: center;
+    height: 50px;
+    padding-top: 5px;
+}
+.neckCursos div{
+    display: inline-block;
+}
+
+
+
+@media (max-width: 600px)
+{
+    .headCursos h3{
+        font-size: 40px;
+    }
+}

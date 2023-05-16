@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/cursosList.css">
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/cursos.css">
+    <link rel="stylesheet" href="../../css/button.css">
+    <link rel="shortcut icon" href="../../assets/img/fatelLogo.jpg" type="image/x-icon" />
+    <title>Fatel</title>
+</head>
+<body onload="showAllCursos()">
+    <header>
+        <div class="menuContainer">
+            <nav>
+                <a class="logo" href="#">Fatel</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="./Cursos.html">Cursos</a></li>
+                    <li><a href="./Sobre.html">Sobre</a></li>
+                    <li><a href="./Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="headCursos">
+            <h3>Graduação</h3>
+        </div>
+        <div class="neckCursos">
+            <div><button class="btn btnPrimary" onclick="showAllCursos()">Todos</button></div>
+            <div><button class="btn btnPrimary" onclick="showTICursos()">T.I.</button></div>
+            <div><button class="btn btnPrimary" onclick="showRHCursos()">RH</button></div>
+            <div><button class="btn btnPrimary" onclick="showLogisCursos()">Logistica</button></div>
+        </div>
+        <div class="CursosContainerAll">
+            <div class="List3d">
+                <ul>
+                    <li style="--i:3;"><a href="#">Análise e Desenvolvimento de Sistemas</a></li>
+                    <li style="--i:2;"><a href="#">Recursos Humanos</a></li>
+                    <li style="--i:1;"><a href="#">Logistica</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="CursosContainerTI">
+            <div class="List3d">
+                <ul>
+                    <li style="--i:3;"><a href="#">Análise e Desenvolvimento de Sistemas</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="CursosContainerRH">
+            <div class="List3d">
+                <ul>
+                    <li style="--i:2;"><a href="#">Recursos Humanos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="CursosContainerLogis">
+            <div class="List3d">
+                <ul>
+                    <li style="--i:1;"><a href="#">Logistica</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <br><br>
+            <h4>&#174;Fatel - Faculdade de Tecnologia do Leste de Minas</h4>
+            <div>
+                <h4>Contato:</h4>
+                <p>31 3243-0967</p>
+                <p><a href="https://wa.me/553132430967" target="_blank"><img class="LogoIcon" src="../../assets/img/WhatsappLogo.png" alt="Simbolo Whatsapp"></a></p>
+            </div>
+            <div>
+                <h4>Endereço:</h4>
+                <p>Rodovia de Ligação da BR 120/259 - Km 001, S/N,</p>
+                <p>Virginópolis - MG, 39730-000</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/cursos.js"></script>
+    <script src="../../js/menuAcoes.js"></script>
+</body>
+</html>

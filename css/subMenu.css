@@ -1,0 +1,8 @@
+.subMenuContainer{
+    background-color: #b6e1ef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 6vh;
+}

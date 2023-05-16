@@ -1,0 +1,96 @@
+.Carrousel{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imgSlider{
+    height: 500px;
+}
+
+#imgCarousel{
+    width: 600px;
+    height: 400px;
+    box-shadow: 8px 4px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-wrap{
+    margin: auto;
+}
+
+.imgAvisosBoards{
+    height: 400px;
+    margin: 10px;
+}
+
+.CursoSearch{
+    background-image: linear-gradient( to right, #1aa1c7, #19b3dc, #b6e1ef, #c9ebf7 );
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+.CursoSearch input{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border-style: none;
+}
+.btnLabel{
+    background-color: rgb(127, 219, 255);
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+}
+#btnCursoSearc{
+    height: 48px;
+}
+
+.ContatoMain{
+    text-align: center;
+}
+.LogoIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.vantagensMain{
+    text-align: center;
+    background-image: linear-gradient( to right, #a2d3e6, #95cbdd, #19b3dc, #1aa1c7 );
+    color: #fff;
+}
+.vantagensMain div{
+    display: inline-block;
+    margin: 10px;
+}
+
+.sobreMain{
+    text-align: center;
+}
+.sobreMain p{
+    width: 700px;
+    margin: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b6e1ef;
+}
+
+@media (max-width: 600px)
+{
+  #imgCarousel{
+    width: 400px;
+    height: 400px;
+    box-shadow: 8px 4px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .CursoSearch{
+    height: 300px;
+  }
+  .sobreMain p{
+    width: 300px;
+  }
+  .sobreMain img{
+    width: 400px;
+  }
+}

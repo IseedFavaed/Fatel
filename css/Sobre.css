@@ -1,0 +1,29 @@
+
+
+
+.HistoriaSobre{
+    text-align: center;
+}
+.HistoriaSobre p{
+    width: 700px;
+    margin: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b6e1ef;
+}
+
+.missaoSobre{
+    text-align: center;
+}
+.missaoSobre p{
+    width: 700px;
+    margin: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b6e1ef;
+}
+.imgSobre{
+    text-align: center;
+}
