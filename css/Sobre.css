@@ -27,3 +27,18 @@
 .imgSobre{
     text-align: center;
 }
+
+
+
+@media (max-width: 600px)
+{
+    .HistoriaSobre p{
+        width: 300px;
+    }
+    .missaoSobre p{
+        width: 300px;
+    }
+    .imgFatelSobre{
+        width: 400px;
+    }
+}
