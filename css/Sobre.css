@@ -1,5 +1,7 @@
 
-
+.SobrePage{
+    background-image: linear-gradient( to right, #1aa1c7, #19b3dc, #b6e1ef, #c9ebf7 );
+}
 
 .HistoriaSobre{
     text-align: center;
@@ -11,6 +13,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #b6e1ef;
+    background-color: #fff;
 }
 
 .missaoSobre{
@@ -23,6 +26,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #b6e1ef;
+    background-color: #fff;
 }
 .imgSobre{
     text-align: center;

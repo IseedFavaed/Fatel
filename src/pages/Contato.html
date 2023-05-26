@@ -4,31 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/menu.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/button.css">
     <link rel="stylesheet" href="../../css/Contato.css">
+    <link rel="stylesheet" href="../../css/menuHeader.css">
     <link rel="shortcut icon" href="../../assets/img/fatelLogo.jpg" type="image/x-icon" />
     <title>Fatel</title>
 </head>
 <body>
     <header>
-        <div class="menuContainer">
-            <nav>
-                <a class="logo" href="#">Fatel</a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+        <div class="menu-bar">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Fatel</h1>
                 </div>
-                <ul class="nav-list">
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="./Cursos.html">Cursos</a></li>
-                    <li><a href="./Sobre.html">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-list"><a href="../../index.html" class="nav-link">Ínicio</a></li>
+                        <li class="nav-list"><a href="./Cursos.html" class="nav-link">Cursos</a></li>
+                        <li class="nav-list"><a href="./Sobre.html" class="nav-link">Sobre</a></li>
+                        <li class="nav-list"><a href="./Contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="login-button">
+                    <button><a href="./AreaAluno.html">Já sou Aluno</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuPagesSrc()"><img class="icon" src="../../assets/img/menu/menu_white_36dp.svg" alt="Simbolo de Menu"></button>
+                </div>
             </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <l<li class="nav-list"><a href="#" class="nav-link">Ínicio</a></li>
+                    <li class="nav-list"><a href="#" class="nav-link">Cursos</a></li>
+                    <li class="nav-list"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-list"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="login-button">
+                    <button><a href="./AreaAluno.html">Já sou Aluno</a></button>
+                </div>
+            </div>
         </div>
+
     </header>
 
     <main>
