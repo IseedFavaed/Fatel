@@ -1,0 +1,43 @@
+.ConteinerAreaAluno{
+    margin: 0;
+    padding: 0;
+}
+
+.HeaderAreaAluno{
+    text-align: center;
+    background-color: #b6e1ef;
+    padding: 50px;
+}
+
+
+.ConteinerGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #19b3dc;
+    padding: 10px;
+    gap: 10px;
+}
+
+.ConteinerGrid > div{
+    background-color: #b6e1ef;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerAreaAluno{
+    text-align: center;
+    background-color: #b6e1ef;
+    padding: 50px;
+}
+
+
+
+@media screen and (max-width: 730px){
+
+    .ConteinerGrid{
+        display: inline-block;
+    }
+
+}
