@@ -1,0 +1,13 @@
+.ContainerPageExtra{
+    height: 100vh;
+    text-align: center;
+}
+
+.ListCursosAdd ul li{
+    list-style: none;
+}
+
+.imgWPp{
+    width: 50px;
+    height: 50px;
+}
